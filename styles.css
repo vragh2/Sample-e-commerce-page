@@ -1,0 +1,45 @@
+.main {
+	display: flex
+}
+.aside {
+	margin-right: 80px;
+}
+.item {
+    flex: 1;
+    padding: 20px;
+}
+#content {
+	display: flex;
+    flex-wrap: wrap;
+}
+.rating {
+	background: grey;
+    color: white;
+    width: 35px;
+}
+.item-image {
+	/*padding-bottom: 50px;
+	height: 312px;*/
+}
+img {
+	height: 160px;
+    width: 232px;
+}
+.underline {
+	border-bottom: 1px dotted black;
+	padding-bottom: 10px;
+}
+li {
+	padding: 0 15px;
+	cursor: pointer;
+}
+.sort-option {
+	list-style: none;
+    padding: 0;
+    margin: 0 30px;
+    display: flex;
+}
+.sort-tag {
+    display: flex;
+}
+}
